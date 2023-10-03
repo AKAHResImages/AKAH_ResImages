@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKAH ResImages</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Calibri, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4b0353;
+        }
+        .navbar {
+            background-color: #770484;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #FFFFFF;
+            margin: 0 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        /* Home Page Styles */
+        .about {
+            color: #FFFFFF;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .about-text {
+            color: #FFFFFF;
+            margin-top: 20px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #b900cd;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        /* Posting Page Styles */
+        .upload-container {
+            margin-top: 20px;
+        }
+        .upload-button {
+            background-color: #b900cd;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+        /* Grade Pages Styles */
+        .grade-container {
+            margin-top: 20px;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">AKAH ResImages</a>
+        <a href="#">Post</a>
+    </div>
+
+    <!-- Home Page -->
+    <div class="container">
+        <h1 class="about">About Us</h1>
+        <p class="about-text">
+            AKAH ResImages is a blog site that attempts to bring the residential community together through the sharing of images.
+            We hope to connect the residences together, and enhance everyone’s bond with each other through this simple platform.
+            We hope you have a great time on AKAH ResImages
+        </p>
+        <div class="buttons">
+            <a class="button" href="#">Grade 8</a>
+            <a class="button" href="#">Grade 9</a>
+            <a class="button" href="#">Grade 10</a>
+            <a class="button" href="#">Grade 11</a>
+            <a class="button" href="#">Grade 12</a>
+        </div>
+    </div>
+
+    <!-- Posting Page -->
+    <div class="container upload-container">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="file" accept="image/*">
+            <textarea name="caption" id="caption" rows="4" maxlength="50" placeholder="Caption (max 50 words)"></textarea>
+            <div class="grade-container">
+                <label for="grade">Select Grade:</label>
+                <select name="grade" id="grade">
+                    <option value="Grade 6">Grade 6</option>
+                    <option value="Grade 7">Grade 7</option>
+                    <option value="Grade 8">Grade 8</option>
+                    <option value="Grade 9">Grade 9</option>
+                    <option value="Grade 10">Grade 10</option>
+                    <option value="Grade 11">Grade 11</option>
+                    <option value="Grade 12">Grade 12</option>
+                </select>
+            </div>
+            <input class="upload-button" type="submit" value="POST">
+        </form>
+    </div>
+
+    <!-- Grade 8 Page -->
+    <div class="container grade-container">
+        <!-- Content for Grade 8 Page -->
+    </div>
+
+    <!-- Grade 9 Page -->
+    <div class="container grade-container">
+        <!-- Content for Grade 9 Page -->
+    </div>
+
+    <!-- Grade 10 Page -->
+    <div class="container grade-container">
+        <!-- Content for Grade 10 Page -->
+    </div>
+
+    <!-- Grade 11 Page -->
+    <div class="container grade-container">
+        <!-- Content for Grade 11 Page -->
+    </div>
+
+    <!-- Grade 12 Page -->
+    <div class="container grade-container">
+        <!-- Content for Grade 12 Page -->
+    </div>
+</body>
+</html>
